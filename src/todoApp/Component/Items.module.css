@@ -1,0 +1,44 @@
+.TodoItems {
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  padding: 8px;
+  margin: 6px 0;
+  display: flex;
+  color: black;
+  border-radius: 10px;
+}
+
+.ItemsHeader {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.TodoSubHeader {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.TodoDesc {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.ItemsContent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.RightHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
